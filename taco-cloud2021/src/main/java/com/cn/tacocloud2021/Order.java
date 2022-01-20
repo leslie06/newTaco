@@ -8,6 +8,7 @@ import javax.validation.constraints.NotBlank;
 public class Order {
     @NotBlank
     private String name;
+
     private String street;
     private String city;
     private String state;
